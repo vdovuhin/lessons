@@ -1,0 +1,40 @@
+@import url("reset.css"); 
+
+.text {
+	color: blue;
+}
+
+h2{
+	color: #7bff00;
+}
+
+#gree {
+	color: #200ac5;
+}
+
+.article h3{
+	color: #349417;
+}
+
+.article p{
+	color: #948117;
+}
+
+.list {
+	color: #2ab842;
+}
+[class*="te"]{
+	color: #a5aabd;
+}
+
+.block-1 > p {
+	color: #3d52a5;
+}
+
+.block-1 ~ p {
+	color: #b3bce0;
+}
+
+.block-1 + p {
+	color: #b3e0ba;
+}
