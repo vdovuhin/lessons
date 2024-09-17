@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+@import url("fonts.css");
+@import url("reset.css"); 
+
+body{
+	font-size: 14px;
+	font-family: "Kollektif";
+	color: #81272e;
+}
+.header{}
+
+.header__items{}
+
+.header__item {
+	line-height: 1.3;
+	text-align: center;
+	font-style: oblique;
+	font-size: 18px;
+}
+.header__item a{
+	color: blue;
+	text-decoration: underline;
+}
+	
+
+
+
+
+
+.page {
+	
+
+}
+.main__text{
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 16px;
+
+}
+
+
+.main__text span {
+	color: #3ac0c5;
+	text-decoration: line-through;
+}
+.titel{
+	font-size: 60px;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 10px;
+	line-height: 2.6;
+	text-shadow: 6px 4px 3px #d1f508,
+							9px 7px 1px #05ff27;
+	
+	
+}
+.sab-titel{
+	font-size: 26px;
+	font-style: oblique;
+	line-height: 1.6;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;	
+	text-decoration-color: red;
+	text-decoration-style: dashed;
+}
+
+.dril__user,
+.dril__about,
+.dril__introduce{
+	font-size: 18px;
+}
+.user {
+	font-family: "Work Sans", sans-serif;
+	color: #556070;
+}
+.user__titel{
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 131.578947%; /* 50/38 */
+	color: #132238;
+}
+.user__text{
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.page__about{}
+
+.about{
+	font-family: "DM Sans" sans-serif;
+	font-size: 24px;
+	color:#474464;
+	line-height: 1.75; /* 42/24 */
+}
+.about__titel{
+	color: #1E1B39;
+	font-size: 88px;
+	font-weight: 700;
+	line-height: 1.08; /* 95/88 */
+}
+.about__text{}
+
+.page__introduce{}
+
+.introduce {
+	color:#505F98;
+	font-family: "Roboto", serif;
+	line-height: 1.67; /* 30/18 */
+}
+
+.introduce__titel{
+	color: #091133;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.32; /* 66/50 */
+	letter-spacing: 1px;
+}
+
+
+.introduce__text{}
+
+
+footer p{
+	text-align: right;
+	font-size: 15px;
+	text-decoration: overline;
+}
+
+
+
+
+
