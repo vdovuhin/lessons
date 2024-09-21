@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,italic,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+
+
+/*
+	@import url("fonts.css");
+*/
+
+@import url("reset.css"); 
+
+body{
+	font-family: Manrope;
+	font-size: 18px;
+	line-height: 150%;
+}
+.items {
+	padding: 60px 0px;
+}
+.item {
+	display: inline-block;
+	margin: 0px 60px 0px 0px;
+	text-align: center;
+}
+.link {
+}
+
+.title{
+	font-size: 50px;
+	text-align: center;
+	color: #5960a5;
+	margin: 60px;
+}
+.sab-title{
+	font-size: 25px;
+	text-align: center;
+	color: #753a6b;
+	margin: 20px;
+}
+
+.div-1{
+	background-color: #d3bbbb;
+	margin: 20px 30px 60px 100px;
+	padding-inline-start: 60px;
+	padding-inline-end: 60px;
+}
+.span-1{
+	background-color: #7e7070;
+	padding: 30px 20px 15px 23px;
+}
+
+
+
+
+
+
+
+
+.page {
+}
+.page__landing {
+	color: #505F98;
+	font-family: Roboto;		
+	line-height: 1.67; /* 30/18 */
+	padding-bottom: 100px;
+}
+.landing {
+	
+}
+.landing__container {
+	max-width: 950px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+.landing__introduce {
+	margin: 26% 0px 38% 0px;
+	display: inline-block;
+	max-width: 539px;	
+}
+.introduce__title {
+	color: #091133;
+	font-size: 50px;
+	margin-bottom: 2%;
+}
+.introduce__text {
+	margin-bottom: 13%;
+}
+.introduce__link {
+	width: 189px;
+	padding: 7px 1px 3px;
+	margin-left: 4%;
+	text-align: center;
+	color: #091133;
+}
+.landing__features {
+}
+.features {
+	margin: 160px 0px 0px 0px;
+}
+.features__blok {
+	max-width: 520px;
+}
+.features__title {
+	color: #091133;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 1.33;
+	margin-bottom: 3%;
+}
+.features__text {
+	color: #6F7CB2;
+	font-size: 16px;
+	line-height: 1.62; /* 162.5% */
+	margin-bottom: 15%;	
+}
+.features__items {
+	max-width: 520px;
+	margin: -15px;
+
+}
+.features__item {
+	width: 245px;
+	display: inline-block;
+	padding: 15px;
+	
+}
+.features__img {
+	margin-bottom: 14px;
+
+}
+.features__sab-titlt {
+	margin-bottom: 2.5%;
+}
+.features__dest {
+	color: #5D6970;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #5D6970;
+	font-size: 12px;
+}
+
+.page__dark {	
+	background-color: #141414;/*!дана властивось не входить до даного цю властивісь я підглянув цю властивісь з відіо на уроці */
+	color: #999;
+	font-family: Manrope;
+	max-width: 1597px;
+	line-height: 1.5;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.dark {
+	margin-bottom: 60px;
+}
+.dark__blok {
+	margin-bottom: 5%;
+}
+.dark__title {
+	color: #FFF;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 1%;
+}
+.dark__text {	
+	font-style: 18px;
+}
+.dark__columns {	
+	margin: -30px;
+	font-style: 0;
+	max-width: 1597px;	
+}
+
+.dark__column {
+	padding: 30px;
+}
+.column {	
+	display: inline-block;
+	max-width: 512px;	
+}
+.dark__content{	
+	background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+	background-color: #271414;	
+	padding: 50px;
+}
+
+.column__blok {
+	margin-bottom: 5%;
+}
+.column__img {
+	padding: 16px;
+	
+}
+.column__title {
+	margin-left: 16px;
+	padding: 16px 0px;
+	display: inline-block;
+	font-size: 24px;
+	vertical-align: middle;
+}
+.column__text {
+	font-size: 18px;
+}
+
