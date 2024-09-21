@@ -161,11 +161,11 @@ body{
 	margin-bottom: 1%;
 }
 .dark__text {	
-	font-style: 18px;
+	font-size: 18px;
 }
 .dark__columns {	
 	margin: -30px;
-	font-style: 0;
+	font-size: 0;
 	max-width: 1597px;	
 }
 
