@@ -48,10 +48,25 @@ body{
 	padding: 30px 20px 15px 23px;
 }
 
+.overflow-1{
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: scroll;
+}
 
+.overflow-2{
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: auto;
 
+}
 
-
+.overflow-3{
+	margin-block: 30px;
+	
+}
 
 
 
