@@ -18,6 +18,7 @@ body{
 
 .page__dark {
 	font-family: Manrope;
+	background:  #141414;
 	color: #FFF;	
 	font-size: 18px;
 	line-height: 1.5;
@@ -25,10 +26,14 @@ body{
 		
 }
 .dark {
+	
+}
+.dark-bg{
+	min-height: 860px;
 	background: linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%),	
 	url("../img/dark/dark-btn.png") center  / 490px no-repeat,
 	url("../img/dark/dark-play.png") center / 159px no-repeat,
-	url("../img/dark/dark-main.png") 0 0 / 100%  no-repeat;	
+	url("../img/dark/dark-main.png") 0 0 / cover  no-repeat;	
 }
 
 .dark__container {
@@ -40,32 +45,35 @@ body{
 	
 }
 .main {
-	padding: 60% 0px 0px 0px;
-	margin-inline: 14%;
+	text-align: center;
+	margin-inline: aut;
 }
-.main__content {
 
-	
-}
 .main__tatel {
-	margin-bottom: 14px;
-	text-align: center;	
+	margin-bottom: 14px;	
 	font-size: 58px;	
 	font-weight: 700;	
 }
 .main__text {
 	margin-bottom: 50px;
 	color:  #999;
-	text-align: center;
+	
 }
 .main__link {
-	margin-inline: 40%;
+	min-width: 251px;
 	margin-bottom: 12%;
 	padding: 18px 24px;
-	border-radius: 8px;
-	text-align: center;
+	border-radius: 8px;	
 	background: #E50000;
 	font-weight: 600;
+}
+
+.main__link span{
+	display: inline-block;
+	background: url(../img/dark/dark-btn.svg);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	
 }
 
 .page__portfolio {
@@ -126,4 +134,7 @@ body{
 
 	background-image: url(../img/portfolio/portfolio-path.svg);
 	background-repeat: no-repeat;
+}
+.footer{
+	text-align: center;
 }
