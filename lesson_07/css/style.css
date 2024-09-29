@@ -1,0 +1,605 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family='DM Sans':regular,500,700&display=swap");
+
+
+
+
+/*
+@import url("fonts.css");
+*/
+@import url("reset.css"); 
+
+body{
+	font-family: Epilogue;
+	font-size: 16px;
+	color: #c73939;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /* clip */
+	/* ... */
+}
+
+.header {
+	min-height: 70px;
+}
+.container {
+	max-width: 1750px;
+	padding-inline: 15px;
+	margin: 0px auto;
+}
+.header__list {
+	
+}
+.list {
+	text-align: center;
+}
+.list__item {
+	display: inline-block;
+	margin-left: 63px;
+	font-size: 18px;
+}
+.list__link {
+	padding: 12px 24px;
+	border-radius: 6%;
+	border: 1px solid #8d9a9c;
+	box-shadow: 5px 7px 0px #465446;	
+}
+.list__link:active{
+	color: #fff;
+	box-shadow: 0px 0px 0px #000000;	
+}
+.list__link:hover{
+	text-decoration: underline;
+	background-color: #8d9a9c;	
+}
+.title{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.subtitle{
+	font-size: 25px;
+	text-align: center;
+}
+.hom-work1__content {
+	max-width: 700px;
+	margin: 0px auto;
+	background-image: url(../img/hom__work1/01.svg);
+	background-repeat: no-repeat;	
+	padding: 60px;
+	border: 2px solid #434c5068;	
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #bbbaae;
+}
+.hom-work1{
+	margin-bottom: 50px;
+}
+.hom-work1__content p:last-child{
+	text-transform: uppercase;	
+}
+.hom-work1__content p:last-child{
+	text-transform: uppercase;	
+}
+.hom-work1__content p:nth-child(3n+1),
+.hom-work1__content p:nth-child(2n+2){
+	margin-left: 60%;
+	background-color: #7c7523;
+	color: rgb(158, 196, 177);
+}
+
+.hom-work1__content:hover {
+	background-image: url(../img/hom__work1/01fokus.svg);
+	box-shadow: 7px 7px 5px #465446;	
+}
+.hom-work1__content *:not(:last-child){
+	padding: 10px;
+}
+.hom-work1__title {
+	color: #132238;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 120% */
+}
+.hom-work1__text {
+	color:  #556070;
+	font-size: 16px;	
+	line-height: 24px;
+	max-width: 300px;
+}
+.page__hom-work2 {
+}
+/*--*/
+.hom-work2 {
+}
+.hom-work2__portfolio {
+
+}
+.portfolio {
+	background: #FDF0E9;
+}
+.portfolio__container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-inline: 1.5%;
+}
+.portfolio__main {
+	color: #391400;
+	
+}
+.main-portfolio {
+	margin: 0 auto;
+	max-width: 570px;
+}
+.main-portfolio__link {
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 4%;
+	margin-bottom: 8%;
+	
+}
+
+.main-portfolio__link:hover{
+	text-decoration: underline;
+}
+
+.main-portfolio__link::before{
+	content: "";
+	width: 15px;
+	height: 10px;	
+	background-image: url(../img/hom__mork2/portfolio/arp.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 16px; 
+}
+
+.main-portfolio__title {	
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 1.14;
+	letter-spacing: -1px;
+	margin-bottom: 5%;
+}
+.main-portfolio__text {
+	font-size: 16px;	
+	line-height: 2; /* 200% */	
+}
+.main-portfolio__text p{
+	display: inline-block;
+	margin-bottom: 1,2%;
+}
+.main-portfolio__text span{
+	color:  #391400a3;
+}
+.main-portfolio__text p:not(:last-child){
+	margin-right: 43%;
+}
+
+.main-portfolio__img {
+	width: 100%;
+	height: 100%;
+	margin-block: 7.1%; /* 71/1000 */	
+}
+.main-portfolio__content{
+	margin-bottom: 10.175439%; /* 58/570 */
+}
+.main-portfolio__content h3 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.33;
+	margin-bottom: 6.140351%; /* 35/570 */
+}
+.main-portfolio__content h3:first-of-type{
+	margin-top: 8.947368%; /* 51/570 */
+}
+.main-portfolio__content h3:last-of-type{
+	margin-top: 11.403509%; /* 65/570 */
+}
+.main-portfolio__content p{
+	color: #391400a3;
+	line-height: 2; /* 200% */
+}
+
+.main-portfolio__content p:first-of-type{
+	color:  #391400;
+	font-size: 20px;
+	line-height: 1.6; /* 160% */
+	margin-bottom: 6.27451%; /* 32/510 */
+}
+
+.main-portfolio__content > ul{
+	margin-top: 6%;
+	margin-bottom: 5.6%;
+}
+
+.main-portfolio__content > ul > li,
+.main-portfolio__content > ol > li {
+	line-height: 2;	
+}
+
+.main-portfolio__content > ul > li:hover,
+.main-portfolio__content > ol > li:hover{
+	text-decoration: underline;
+}
+.main-portfolio__content > ul > li::before{
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #EF6D58;
+	margin-right: 3%;
+}
+.main-portfolio__content > ol{
+	counter-reset: section;
+	margin-top: 4.9%;
+	margin-bottom: 5.614035%; /* 32/570 */
+}
+.main-portfolio__content > ol > li::before{
+	counter-increment: section;
+	content: counters(section, ".") ". ";
+	margin-right: 3%;
+}
+.main-portfolio__content div{
+	margin-top: 12.105263%; /* 69/570 */
+	margin-bottom: 13.333333%; /* 76/570 */
+	padding: 7.4% 7.4% 5.6% 19.6%; /* 112/570 */
+
+	border-radius: 6px;
+	background: #F9E5DA;
+	background-image: url(../img/hom__mork2/portfolio/Shape.svg);
+	background-repeat: no-repeat;
+	background-position:  32px 40px; /* 40/570 */
+	background-size: 10%;
+
+	color: #391400;
+	font-size: 20px;
+	line-height: 1.6; /* 160% */
+	}
+	.main-portfolio__contakt {
+		border-top: 1px solid #F3D1BF;
+		padding-bottom: 14.035088%; /* 80/570 */
+	}
+	.main-portfolio__infa {
+		margin-top: 11.052632%; /* 63/570 */
+	}
+	.main-portfolio__image {	
+		margin-right: 4.210526%; /* 24/570 */
+		border-radius: 50%;
+		
+	}
+	.main-portfolio__image:hover{
+		box-shadow: 3px 4px 10px #391400;	
+	}
+
+	.main-portfolio__user {
+		display: inline-block;
+		margin-right: 25.614035%; /* 146/570 */
+	}
+	
+	.main-portfolio__subject {
+		color: #391400;
+		font-size: 20px;		
+		line-height: 1.6; /* 160% */				
+	}
+	.main-portfolio__sab-title {
+		color: rgba(57, 20, 0, 0.64);
+		font-size: 14px;
+		line-height: 1.71; /* 171.429% */
+	
+	}
+	.main-portfolio__social {
+		display: inline-block;
+	}
+	.social {
+	}
+	.social__item {
+		display: inline-block;
+	}
+	.social__link {
+		border-radius: 50%;		
+		background-color: #EF6D58;
+		padding: 16px;
+	}
+	.social__link:hover{
+		background-color: #9c2614;
+	}
+
+	.hom-work2__business {
+		font-family: 'DM Sans';
+		font-size: 24px;		
+		margin: 3%;
+		padding: 1.5%;
+	}
+	.business {
+	}
+	.business__container {
+		max-width: 1750px;
+		padding-inline: 15px;
+		margin: 0px auto;
+		background-color: #fff;
+	
+	}
+	.business__timeline {
+		max-width: 676px;
+		display: inline-block;		
+		padding-top: 11.428571%; /* 200/1750 */
+		padding-bottom: 17.428571%; /* 305/1750 */
+		margin-block: 6.057143%; /* 106/1750 */
+		margin-right: 22.285714%; /* 390/1750 */
+		
+	}
+	.timeline {		
+		
+	}
+	.timeline__img {
+		margin-bottom: 4.148148%; /* 28/675 */
+		
+	}
+	.business__titel {
+		color:  #1E1B39;
+		text-align: center;
+		font-size: 88px;
+		font-weight: 700;
+		line-height: 1.07; /* 107.955% */
+		margin-bottom: 2.962963%; /* 20/675 */
+		margin-left: -10%;
+	}
+	.business__text {
+		color: #6E6C83;
+		font-size: 24px;
+		line-height: 1.75; /* 175% */
+	}
+	.business__list {
+		display: inline-block;
+		max-width: 630px;	
+		counter-reset: section;	
+	}
+	.business__list:not(:last-child) {
+		margin-bottom: 1.269841%; /* 8/630 */
+	}
+
+	.item {
+		margin-block: 3.333333%; /* 21/630 */
+		/*! Знаю что ми це чвойства не вчили но 
+			!для опрацювання личильника я приняв ришеня що це
+			буду краще
+		*/
+		position: relative;
+	}	
+	.business__item::before {
+		counter-increment: section;
+		content: "0"counters(section, "0") ;		
+		color:  #4A3AFF;
+		font-size: 88px;
+		font-weight: 700;
+		line-height: 95px; /* 107.955% */
+		padding: 9.68254%; /* 61/630 */
+		background-color:  #a9a6cc;
+		border-radius: 50%;
+		opacity: 1;
+		/*! Знаю что ми це чвойства не вчили но 
+			!для опрацювання личильника я приняв ришеня що це
+			буду краще
+		*/
+		position: absolute;
+		top: 0;
+		left: -250px;
+		z-index: 2;
+	}
+	.business__item:hover::before{
+		opacity: 0.4;
+	}
+	.item:not(:last-child) {
+		margin-bottom: 12.857143%; /* 81/630 */
+	}
+	.item__sab-titel {
+		color:  #4A3AFF;
+		font-size: 20px;		
+		font-weight: 700;
+		line-height: 1.1; /* 110% */
+	}
+	.item__titel {
+		color: #1E1B39;
+		font-size: 42px;		
+		font-weight: 700;
+		line-height: 1.28; /* 128.571% */
+	}
+	.item__titel:hover{
+		text-decoration: underline;
+	}
+	.item__desc {
+		color: #6E6C83;
+		font-size: 24px;
+		line-height: 1.75; /* 175% */
+	}
+	.business__pricing {
+		
+	}
+	.pricing {
+	}
+	.pricing__container {
+		max-width: 1750px;
+		padding-inline: 15px;
+		margin: 0px auto;
+		background-color: #fff;
+	
+	}
+	.pricing__titel {
+		margin-bottom: 2.857143%; /* 50/1750 */
+		color:  #1E1B39;
+		font-size: 88px;
+		font-weight: 700;
+		line-height: 1.07; /* 107.955% */
+	}
+	.pricing__colon {
+		display: inline-block;
+		max-width: 33,333%;		
+		padding: 24px;
+		border-radius: 56px;
+		border: 1px solid  #F0F0F6;
+		background: #F0F0F6;
+	}
+	.pricing__colon:hover{
+		background: #bcbcc4;
+	}
+	.pricing__colon:first-child{
+		margin-left: -15px;
+	}
+	.pricing__colon:last-child{
+		margin-right: -15px;
+	}
+
+	.pricing__colon:not(:last-child){
+		margin-right: 38px;
+	}
+
+	.pricing__body {
+		border-radius: 34px;
+		border: 1px solid  #4A3AFF;
+		background:  #4A3AFF;
+		padding-block: 44px;
+		padding-inline: 137px;
+		text-align: center;
+		margin-bottom: 34px;
+	}
+	.pricing__body:hover{
+		opacity: 0.7;
+	}
+	.pricing__caption {
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.06; /* 106.667% */
+	}
+	.pricing__subtitle {		
+		font-size: 116px;
+		font-weight: 700;
+		line-height: 1.03; /* 103.448% */
+	}
+	.pricing__text {
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 1.1; /* 110% */
+	}
+	.pricing__list {
+		
+	}
+	.pricing__list:not(:last-child){
+		margin-left: 26px;
+	}
+	
+	.pricing__item {
+		color: #1E1B39;			
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 1.35; /* 135.714% */	
+	}
+	.pricing__item:not(:last-child){
+		margin-bottom: 26px;
+	}
+	.pricing__item::before{
+		content: "";
+		background-image: url(../img/hom__mork2/business/pricing/Check.svg);
+		background-repeat: no-repeat;
+		background-position: center;		
+    vertical-align: middle;
+		width: 36px;
+		height: 36px;
+		border-radius: 50%;
+		background-color:  #4A3AFF;
+		margin-right: 14px;
+	}
+	.pricing__item:hover{
+		text-decoration: underline;
+	}
+	.pricing__item:hover:before{
+		opacity: 0.4;
+	}
+
+	.page__game {
+	}
+	.game {
+	}
+	.game__container {
+		margin: 0 auto;
+		padding-inline: 15px;
+		max-width: 970px;
+		background: url(../img/hom__mork2/game.jpg) 0 0 / cover  no-repeat;
+		background-attachment: fixed;		
+	}
+	.game__body{
+		min-height: 800px;
+		width: 500px;		
+		opacity: 0.8;
+		margin: 0 auto;		
+	}
+	.game__title {
+		color: #ffffff;
+		text-align: center;
+		font-size: 65px;
+		margin-block: 60px;
+	}
+	.game__items{
+		
+
+	}
+
+	.game__item:not(:first-child){
+			visibility: hidden;
+	}
+	.game__item:hover,
+	.game__item:hover+li{
+			visibility: visible;
+	}
+	.game__item:nth-child(n){
+		height: 30px;
+	}
+	.game__item:nth-child(even){
+			height: 50px;
+			width: 50px;
+			writing-mode: vertical-rl;
+	}
+	.game__item:nth-child(4n+4){    
+			margin-block-end: 98%;
+	}
+	.game__item:nth-child(2n+1){
+	}
+	.game__item{    
+			background: #5da9dbde;
+	}
+	.game__item:last-child,
+	.game__item:first-child{
+			margin-left: 471px;
+			width: 50px;
+			height: 50px;			
+			padding-block: 15px;
+			text-align: center;
+	}
+	.game__item:first-child{
+		margin-left: 0px;
+	}
+	.game__item:last-child::before,
+	.game__item:first-child::before{
+			content: "WIN!";
+			color: #000;     
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer p{
+
+	text-align: center;
+}
