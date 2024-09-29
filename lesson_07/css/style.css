@@ -438,7 +438,8 @@ body{
 	}
 	.pricing__colon {
 		display: inline-block;
-		width: 33,333%;		
+		max-width: 543px;	
+		/*width: 33,333%;*//*?ругается валидатор*/		
 		padding: 24px;
 		border-radius: 56px;
 		border: 1px solid  #F0F0F6;
