@@ -1,0 +1,40 @@
+/*
+@import url("fonts.css");
+*/
+@import url("reset.css"); 
+
+body{
+	
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /* clip */
+	/* ... */
+}
+h1{
+	text-align: center;
+	font-size: 80px;
+	margin-bottom: 56px;
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 56px;
+}
+.page {
+	margin: 0 auto;
+	width: 950px;
+}
+.blok-svg {
+	background: #997f70;
+	margin-bottom: 60px;
+}
+.blok-svg__blok {	
+	margin-bottom: 30px;	
+	display: inline-block;
+}
+.blok-web{
+	background: #463d38;
+}
