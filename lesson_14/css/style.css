@@ -1,0 +1,262 @@
+/* Підключення фрифтів */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,500,600&display=swap");
+/* Google Fonts (Plugin) */
+/* Локальне підключення шрифтів 
+	@import url("fonts.css");
+*/
+/* Скидання стилів */
+@import url("reset.css"); 
+
+body {
+	font-family: "Gilroy", sans-serif;
+	background-color: #333;
+	color: #fff;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip; /* clip */
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+/*Обмежений контенер */
+/*
+[class*="__container"] {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-inline: 15px;
+	/* 
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+*/
+.dark{
+	color: #FFF;
+}
+.page__dark {
+	margin-bottom: 30px;
+}
+.dark {
+}
+.dark__container {
+	max-width: 1310px;
+	margin: 0 auto;
+	padding-inline: 15px;
+
+	display: flex;
+	gap: 50px;
+}
+
+
+.colum{
+	border-radius: 4px;
+	border: 6px solid #262626;
+	background:  #0F0F0F;
+
+	display: flex;
+	align-self: stretch;	
+	
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.colum__img{
+	border-radius: 12px;
+}
+
+.dark__form {
+}
+.form-dark {
+	max-width: 800px;
+	padding: 40px;
+	border-radius: 10px;
+	border: 1px solid #262626;
+	background-color: #0F0F0F;		
+}
+
+.form-dark__colum {
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-between;
+	column-gap: 10px;
+	row-gap: 40px;
+}
+.form-dark__col {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	width: 350px;
+	padding-inline: 10px;
+	padding-block: 20px;
+	flex-grow: 1;	
+}
+.form-dark__label {
+	font-weight: 600;
+	line-height: 150%; 
+	margin-bottom: 12px;
+}
+.form-dark-input {
+	border-radius: 6px;
+	border: 1px solid #262626;
+	background-color: #141414;
+	padding: 16px;
+
+	color: #999;	
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 150%;
+}
+.form-dark-lider {
+	font-weight: 600;
+	line-height: 150%; 
+}
+.form-dark__textarea {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+.form-dark__textarea textarea{
+	padding: 16px;
+	border-radius: 6px;
+	border: 1px solid var(--Black-15, #262626);
+	background: var(--Black-08, #141414);
+
+	width: 688px;
+	height: 97px;
+}
+.form-dark__list{
+	display: flex;
+	gap: 12px;
+
+}
+
+.form__checkbox {
+}
+.checkbox {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+.checkbox__input {
+	width: 24px;
+	height: 24px;
+	border-radius: 4px;
+	border: 1px solid  #262626;
+	background: #0F0F0F;
+}
+.checkbox__label {
+	color: #999;
+	font-weight: 400;
+	line-height: 1.5; /* 24px */
+	
+}
+
+.form__button{
+	padding: 14px 20px;
+
+	border-radius: 6px;
+	background-color: #E50000;
+
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.5; /* 21px */
+
+	transition-duration: 0.8s;
+}
+.form__button:hover{
+	background-color: #fff;
+	color: #E50000;
+	transition-duration: 0.8s;
+}
+
+/* ... */
+
+.page__person {
+	font-family: "Work Sans";
+	color: #697484;
+}
+.person {
+	
+}
+.person__content {
+	max-width: 1350px;
+	margin: 0 auto;
+	padding-inline: 15px;
+
+	
+}
+.person__blok{
+	padding: 88px;
+	display: flex;
+	border-radius: 15px;
+	background: #FFF;
+	box-shadow: 0px 59px 124px 0px rgba(0, 0, 0, 0.12);
+}
+
+.person__text {
+	color: #87909D;
+	font-size: 18px;	
+	line-height: 1.3333; /* 133.333% */
+}
+.person__form {
+	max-width: 560px;	
+}
+.form-person {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 50px;
+}
+.form-person__colum {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.form-person__col{
+
+	border-bottom: 1.5px solid #E6E8EB;
+}
+.form-person__col:hover{
+	color: #A53DFF;
+	border-bottom: 1.5px solid #A53DFF;
+}
+.form-person__label {	
+	font-size: 18px;
+	line-height: 1.3333; /* 133.333% */
+	margin-bottom: 14px;
+}
+.form-person__row{
+	display: flex;
+	gap: 24px;
+}
+.form-person__button{
+	padding: 12px 24px;
+	border-radius: 4px;
+	background: #A53DFF;
+
+	font-weight: 600;
+	line-height: 1.5; /* 150% */
+	color: #FFF;
+
+	display: flex;
+	justify-content: center;
+}
+.form-person__button::after{
+	content:'';
+	margin-left: 12px;
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/button-submin.svg);	
+
+
+}
+.form-person__button:hover{
+	background: #2a163b9f;
+	
+	transition-duration: 0.8s;
+}
