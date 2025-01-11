@@ -2,6 +2,34 @@
 	color: #fff;
 	background-color: #1a1a1a;	
 }
+.button {
+	border-radius: toRem(8);
+	border: 1px solid #1F1F1F;
+	background: #0F0F0F;
+		
+	&:hover{
+		background: #413f3f;
+	}
+	// .button__play
+
+	&__play {
+		padding-block: toRem(14);
+		padding-inline: toRem(24);
+		margin-inline-end: toRem(20);
+		
+	}
+
+	// .button__items
+
+	&__items {
+	}
+
+	// .button__item
+
+	&__item {
+		padding: toRem(14);
+	}
+}
 .button-header {
 	display: flex;
 	align-items: center;
@@ -9,6 +37,11 @@
 	border-radius: toRem(8);
 	background-color: #E50000;
 	padding-inline: toRem(24);
+	transition: all 0.3s;
+	&:hover{
+		transition: all 0.3s;
+		background-color: #703232;
+	}
 }
 
 .slayder {
@@ -19,7 +52,7 @@
 	// .slayder__button
 
 	&__button {
-		
+		padding: toRem(16);
 		// .slayder__button--revers
 		&--revers{
 			transform: rotate(180deg);
@@ -56,14 +89,15 @@
 		}
 	}
 }
-.button {
-	border-radius: toRem(8);
-	border: 1px solid #1F1F1F;
-	background: #0F0F0F;
-		
+
+.button-our{
 	&:hover{
 		background: #413f3f;
+		border-radius: 6px;
 	}
 }
+
+
+
 
 
