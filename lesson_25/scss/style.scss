@@ -1,0 +1,81 @@
+@use "sass:math";
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo:500&display=swap");
+
+@import "_mixins.scss";
+
+/* Локальне підключення шрифтів */
+@import "_fonts.scss";
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+/* Основні стилі */
+body {
+	font-family: "Manrope", sans-serif;	
+	font-size: toRem(22);
+	
+	color: #271e1e;	
+	background-color: #dad5d5;
+
+	opacity: 0;
+	transition: opacity 0.8;
+	.loaded & {
+		opacity: 1;
+	}
+}
+.wrapper {	
+	min-height: 100%;
+	overflow: clip; /* clip */
+
+	display: flex;
+	flex-direction: column;
+
+	position: relative;
+	z-index: 2;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+/* --------------------- */
+
+[class*="__container"] {
+	max-width: 1624px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+
+
+/* --------------------- */
+/* Стилі для header */
+@import "header";
+@import "footer";
+@import "common";
+
+.wrapper {}
+
+.header {
+	background-color: #b49db1;
+	// .header__item
+
+	&__item {}
+}
+
+.page {}
+
+.item {}
+
+.button {}
+
+.footer {
+	background-color: #654561;
+
+	// .footer__item
+
+	&__item {}
+}
